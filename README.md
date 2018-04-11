@@ -9,3 +9,12 @@ docker-compose up
 docker-compose build --no-cache
 
 #If having issues with db, delete the container (Not the image) and recreate it. Thats the best way I found.
+
+#delete containers
+docker-compose rm -v
+
+#view containers
+docker ps -a
+
+#stop container
+docker stop <container_id>
