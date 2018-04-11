@@ -7,3 +7,5 @@ docker-compose up
 #builds app again after having created it.
 
 docker-compose build --no-cache
+
+#If having issues with db, delete the container (Not the image) and recreate it. Thats the best way I found.
