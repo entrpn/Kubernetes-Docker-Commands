@@ -1,10 +1,10 @@
-# docker-commands
+#docker-commands
 
 #bring up image. First time will take a long time as it brings in everything.
 
 docker-compose up
 
-# same as above run in background.
+#same as above run in background.
 docker-compose up -d
 
 #builds app again after having created it.
@@ -28,3 +28,6 @@ docker stop <container_id>
 #To additionally remove any stopped containers and all unused images (not just dangling images), add the -a flag to the command:
 
 docker system prune -a
+
+#logs
+docker logs <container_id>
