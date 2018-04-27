@@ -4,6 +4,9 @@
 
 docker-compose up
 
+# same as above run in background.
+docker-compose up -d
+
 #builds app again after having created it.
 
 docker-compose build --no-cache
