@@ -51,3 +51,9 @@ docker rmi <image_id>
 ```
 docker rmi $(docker images -q)
 ```
+# Build and Run docker image
+
+```
+docker build -t <give_it_a_name> .
+docker run -p 49160:8080 -d <give_it_a_name>
+```
