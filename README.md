@@ -34,3 +34,20 @@ docker system prune -a
 
 #logs
 docker logs <container_id>
+
+# Stop and Remove all containers
+```
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+```
+# Remove an image 
+
+```
+docker rmi <image_id>
+```
+
+# Remove all images
+
+```
+docker rmi $(docker images -q)
+```
