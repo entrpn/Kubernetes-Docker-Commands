@@ -24,6 +24,14 @@ https://github.com/entrpn/orchestrate-with-kubernetes/tree/master/kubernetes
 
 ```kubectl delete deployment hello-python-tf```
 
+### View deployments
+
+```kubectl get deployments --all-namespaces```
+
+### Delete deployment by namespace
+
+```kubectl delete -n NAMESPACE deployment DEPLOYMENT```
+
 ### Edit deployment
 
 ```kubectl edit deployment hello-python-tf```
